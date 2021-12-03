@@ -237,3 +237,99 @@ ll
 cd /home/
 ll
 ls -l
+gh auth login
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+sudo apt update
+sudo apt install gh
+sudo apt update
+sudo apt install gh
+gh auth login
+cd /home/
+ll
+git remote -v
+git@github.com:FraLasc/FraLasc.git
+git --version
+git config --list
+pwd
+ll
+cd acs/
+ll
+nano .gitconfig 
+cd /home
+sudo mv gitproject/ git_workspace
+ll
+cd git_workspace/
+ll
+ls -l
+clear
+git status
+cd /home/
+git commit -m acs/
+clear
+cd acs/
+cd /home/acs/
+ll
+cd /home/
+git init
+sudo git init
+git add *
+sudo git add *
+sudo git commit -m "caricamento di prova"
+git config --global user.email "francesco.lascala@oaknet.io"
+git config --global user.name "FraLasc"
+sudo git commit -m "caricamento di prova"
+sudo git config --global user.name "FraLasc"
+sufo git config --global user.email "francesco.lascala@oaknet.io"
+sudo git config --global user.email "francesco.lascala@oaknet.io"
+sudo git commit -m "caricamento di prova"
+sudo git pull
+sudo git remote add origin git@github.com:FraLasc/test.git
+git push -u origin master
+ls -al ~/.ssh
+$ ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-keygen -t ed25519 -C "francesco.lascala@oaknet.io"
+sudo ssh-keygen -t ed25519 -C "francesco.lascala@oaknet.io"
+ls -al ~/.ssh
+cd
+ll
+cd .ssh/
+ll
+nano id_ed25519.pub 
+nano id_ed25519
+cd
+git config --list
+gh auth login
+nano id_ed25519.pub 
+cd
+cd .ssh/
+nano id_ed25519.pub 
+ll
+nano id_ed25519
+sudo git push -u origin master
+cd /home/acs/
+
+cd /home/
+sudo git push -u origin master
+sudo s
+sudo su
+sudo git commit -m "caricamento di prova"
+cd 
+cd .ssh/
+ll
+nano known_hosts 
+nano id_ed25519.pub 
+ll
+rm id_ed25519
+rm id_ed25519.pub 
+rm known_hosts 
+ll
+clear
+cd
+sudo ssh-keygen -t ed25519 -C "francesco.lascala@oaknet.io"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+cd .ssh/
+ll
+sudo su
+exit
